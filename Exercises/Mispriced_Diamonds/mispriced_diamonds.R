@@ -1,4 +1,4 @@
-mydata <- read.csv("C:/Users/Admin/GitHub_Cloned_Repositories/R/Exercises/Datasets/P2-Mispriced-Diamonds.csv")
+mydata <- read.csv("PATH containing CSV")
 
 ggplot(data=mydata[mydata$carat<2.5,], 
        aes(x=carat, y=price, colour = clarity)) + 
